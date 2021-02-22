@@ -41,7 +41,7 @@
 
 
 
-![](image/image3.png)
+
 
 
 
