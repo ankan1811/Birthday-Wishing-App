@@ -3,7 +3,7 @@
 
 # An android app made using Kotlin  To wish your friends happy birthday
 
-![](image/image1.png)
+
 
 
 # Type your name
@@ -13,6 +13,13 @@
 
 
 # See the magic
+
+
+
+
+![](image/image1.png)
+
+
 
 
 ![](image/image2.png)
