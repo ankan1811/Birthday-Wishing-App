@@ -6,18 +6,32 @@
 
 
 
-# Type your name
+# 1.Type your name:
+
+
+</br>
+</br>
+
+
+![](image/image1.png)
+
+
+
+</br>
+</br>
+
 
 
 ![](image/zoomemulator.png)
 
 
-# See the magic
+
+# 2.See the magic:
 
 
 
 
-![](image/image1.png)
+
 
 
 
