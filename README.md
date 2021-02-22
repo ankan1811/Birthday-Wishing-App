@@ -4,8 +4,9 @@
 
 ![](image/image1.png)
 
-![](images/image2.png)
 
-![](images/image3.png)
+![](image/image2.png)
 
-![](images/zoomemualtor.png)
+![](image/image3.png)
+
+![](image/zoomemualtor.png)
