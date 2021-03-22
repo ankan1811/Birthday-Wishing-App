@@ -21,7 +21,9 @@ class MainActivity : AppCompatActivity() {
     fun createBirthdayCard(view: View) {
 
         val name = nameInput.editableText.toString() //took name as input in Editext with id as nameInput in activity_main.xml
-
+        //How to jump one screen to another in android using intent:
+        //Pass the context of this screen’s activity and the next screen activity’s class.
+        //Intent is like a bundle in which you can put key-value pair and it will pass it to the next activity.
         val intent = Intent(this, BirthdayGreetingActivity::class.java)
         intent.putExtra(BirthdayGreetingActivity.NAME_EXTRA, name) //to pass data through intent intent.putExtra(key,value) 
         //NAME_EXTRA will remain same evrywhere
