@@ -9,7 +9,11 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?) {//onCreate(Bundle savedInstanceState) Function in Android:
+
+//After Orientation changed then onCreate(Bundle savedInstanceState) will call and recreate the activity and load all data from savedInstanceState.
+        // Basically Bundle class is used to stored the data of activity whenever above condition occur in app.
+        
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
