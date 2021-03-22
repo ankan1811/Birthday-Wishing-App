@@ -15,12 +15,18 @@ class MainActivity : AppCompatActivity() {
         // Basically Bundle class is used to stored the data of activity whenever above condition occur in app.
         
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main)//Use of setcontentView :
+//Set the activity content from a layout resource. The resource will be inflated, adding all top-level views to the activity.
+//1.	Activity is basically a empty window.
+//2.	SetContentView is used to fill the window with the UI provided from layout file incase of setContentView(R.
+
     }
 
     fun createBirthdayCard(view: View) {
 
         val name = nameInput.editableText.toString() //took name as input in Editext with id as nameInput in activity_main.xml
+        
+        
         //How to jump one screen to another in android using intent:
         //Pass the context of this screen’s activity and the next screen activity’s class.
         //Intent is like a bundle in which you can put key-value pair and it will pass it to the next activity.
